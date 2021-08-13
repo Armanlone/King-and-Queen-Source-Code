@@ -1,4 +1,4 @@
-# The Thief
+# King & Queen
 
 # o About:
  A puzzling love story of a King and a Queen unable to reach each other.
