@@ -8,12 +8,6 @@ Help them by solving different kinds of puzzles in every level, and unlocking th
 This is a heartwarming game to show what's pure love and wholesomeness for the children.
 
 A combination of Date Night by Brackeys and Heart Star by Adventure Islands.
-
-#Features:
-    o Unique platform-changing gameplay.
-    o Filled with sweet 15 mini-puzzles inside.
-    o Coupled with cute cut-scenes.
-    o Play in Solo or with a Friend mode in this local multiplayer.
     
 # o Codes:
  The codes are using the "UnityEvents" of Unity, combined with the "Single-Responsibility" prniciple of SOLID and the "Singleton Pattern" used in the previous game.
