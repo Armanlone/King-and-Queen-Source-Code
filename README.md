@@ -10,7 +10,7 @@ This is a heartwarming game to show what's pure love and wholesomeness for the c
 A combination of Date Night by Brackeys and Heart Star by Adventure Islands.
     
 # o Codes:
- The codes are using the "UnityEvents" of Unity, combined with the "Single-Responsibility" prniciple of SOLID and the "Singleton Pattern" used in the previous game.
+ The codes are using the "UnityEvents" of Unity, combined with the "Single-Responsibility" principle of SOLID and the "Singleton Pattern" used in the previous game.
 
 # o Credits:
 
@@ -19,7 +19,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 Meaning:
 
     o Feel free to change whatever you like in this game project including the codes, sounds, etc.
-    o If you ever used my game project, credits isn't necessary but greatly appreciated.
+    o If you ever used my source code, credit isn't necessary but greatly appreciated.
     o You can credit me as Armanlone or @armanlone_main
     
 You can also contact me through Twitter: @armanlone_main for queries.
