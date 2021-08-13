@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Jump Through Platform
+  - Platform
+  - Ground
+  - King
+  - Queen
+  - Goal
+  - Fall Zone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - King
+  - Queen
+  - Mixed Purple Platform Layer
+  - White Platform Layer
+  - King Platform Layer
+  - Queen Platform Layer
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2777201215
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Star
+    uniqueID: 718593313
+    locked: 0
+  - name: Midground
+    uniqueID: 2529498399
+    locked: 0
+  - name: Player
+    uniqueID: 1570802253
+    locked: 0
+  - name: Buttons
+    uniqueID: 2343841955
+    locked: 0
+  - name: Foreground
+    uniqueID: 1835368725
+    locked: 0
