@@ -14,6 +14,8 @@ namespace Game.LevelManagement
     {
         private static LevelManager INSTANCE = null;
 
+        private const string SAVE_LEVEL_KEY = "levelsUnlocked";
+
         private void Awake()
         {
             if (INSTANCE != null && INSTANCE != this)
@@ -71,6 +73,25 @@ namespace Game.LevelManagement
         public static int getCurrentSceneBuildIndex()
         {
             return SceneManager.GetActiveScene().buildIndex;
+        }
+
+        public static string getSaveLevelKey()
+        {
+            return SAVE_LEVEL_KEY;
+        }
+
+        public static int getSaveLevel()
+        {
+            return PlayerPrefs.GetInt(SAVE_LEVEL_KEY, 1);
+        }
+
+        #endregion
+
+        #region Setter(s)
+
+        public static void setSaveLevel(int newLevelUnlockedIndex)
+        {
+            PlayerPrefs.SetInt(SAVE_LEVEL_KEY, newLevelUnlockedIndex);
         }
 
         #endregion

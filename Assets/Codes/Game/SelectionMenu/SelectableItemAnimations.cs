@@ -57,30 +57,52 @@ namespace Game.SelectionMenu
             if (selection == null || selection.keySelect == KeyCode.None)
                 return;
 
-            // DEFAULT STATE
-            if (selectionIndex != selection.pointer)
+            // NOT INTERACTABLE STATE
+            if (!isInteractable)
             {
-                onDefault?.Invoke();
-                animationState = 1;
+                //animationState = 4;
+
+                // Not interactable and Idle
+                if (selectionIndex != selection.pointer)
+                {
+                    animationState = 4;
+                }
+
+                // Not interactable and Pointing
+                else if (!ControlsManager.getKeyDown(selection.keySelect))
+                {
+                    animationState = 3;
+                }
+                
             }
 
             else
             {
-                
-                // POINTER STATE
-                if (!ControlsManager.getKeyDown(selection.keySelect))
-                {
 
-                    onPointer?.Invoke();
-                    animationState = 2;
-                
+                // DEFAULT STATE
+                if (selectionIndex != selection.pointer)
+                {
+                    onDefault?.Invoke();
+                    animationState = 1;
                 }
 
-                // SELECTED STATE
                 else
                 {
+                    
+                    // POINTER STATE
+                    if (!ControlsManager.getKeyDown(selection.keySelect))
+                    {
 
-                   onSelected?.Invoke();
+                        onPointer?.Invoke();
+                        animationState = 2;
+                    
+                    }
+
+                    // SELECTED STATE
+                    else
+                    {
+                        onSelected?.Invoke();
+                    }
 
                 }
 

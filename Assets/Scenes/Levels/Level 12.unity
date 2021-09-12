@@ -1693,6 +1693,11 @@ PrefabInstance:
       propertyPath: onTimerEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 7868716644276407900, guid: 8c50ac73f44744b4e8fc582bad5a99ba,
+        type: 3}
+      propertyPath: newLevelUnlockedIndex
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1703248102219274535, guid: 8c50ac73f44744b4e8fc582bad5a99ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8c50ac73f44744b4e8fc582bad5a99ba, type: 3}
