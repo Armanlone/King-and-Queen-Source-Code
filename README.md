@@ -1,6 +1,6 @@
 # King & Queen
 
-# About:
+## About:
  A puzzling love story of a King and a Queen unable to reach each other.
 
 Help them by solving different kinds of puzzles in every level, and unlocking their ending.
@@ -9,10 +9,10 @@ This is a heartwarming game to show what's pure love and wholesomeness for the c
 
 A combination of Date Night by Brackeys and Heart Star by Adventure Islands.
     
-# Codes:
+## Codes:
  The codes are using the "UnityEvents" of Unity, combined with the "Single-Responsibility" principle of SOLID and the "Singleton Pattern" used in the previous game.
 
-# Credit:
+## Credit:
 
 This work is licensed under a Creative Commons Attribution 4.0 International License.
 
