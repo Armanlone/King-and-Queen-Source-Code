@@ -22,6 +22,4 @@ Meaning:
 - If you used some of the old assets, please credit their original creators. You can find them inside the game folder available in itch.io, link here: [https://armanlone.itch.io/king-and-queen](https://armanlone.itch.io/king-and-queen)
 - For non-commercial, you can also credit me as Armanlone inside your game's credits, in your webpage, or in a note accompanying the game. It is not necessary, but greatly appreciated!
 
-For queries, you can always contact me through my Twitter: @armanlone_main 
-
 Thank you for downloading this source code.
